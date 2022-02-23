@@ -11,7 +11,7 @@ public class Nqueens {
         Scanner scanner = new Scanner(System.in);
         int queens = scanner.nextInt();
         queensPlacer(queens);
-        System.out.println("queens placements are " + queensBoard);
+        System.out.println("queens placements are " + queensBoard + "and the number of solutions are " + queensBoard.size());
     }
     public static void queensPlacer(int n){
         ArrayList<Integer> board = new ArrayList<>();
