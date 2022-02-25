@@ -18,7 +18,7 @@ public class GridTraveller {
     }
 
     public static void main(String[] args) {
-        System.out.println(gridTraveller(2,3));
+        System.out.println(gridTraveller(4,3));
 
     }
 }
